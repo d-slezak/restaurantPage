@@ -1,6 +1,6 @@
 function renderAbout() {
     const about = document.createElement('div');
-    about.id = 'about';
+    about.id = 'aboutPage';
 
     const aboutHeader = document.createElement('h2');
     aboutHeader.textContent = 'About Us';
@@ -18,7 +18,7 @@ function renderAbout() {
     historyDiv.appendChild(historyP);
 
     const historyImages = document.createElement('div');
-    //historyImages.id = histImgs;
+    historyImages.id = 'histImgs';
 
     const imgleft = document.createElement('img');
     imgleft.src = "./images/culberts-bakery-history-1.jpeg";
