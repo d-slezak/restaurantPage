@@ -1,1 +1,1 @@
-console.log("hello?");
+(()=>{"use strict";const e=document.getElementById("content");e.innerHTML="",e.appendChild(function(){const e=document.createElement("div");e.id="header";const t=document.createElement("h1");t.id="navLogo",t.textContent="Culbert's Bakery",e.appendChild(t);const n=document.createElement("div");return n.id="navOptions",["home","menu","about"].forEach((e=>{const t=document.createElement("div");t.classList.add("navItem"),t.textContent=e,t.id=e,n.appendChild(t)})),e.appendChild(n),e}())})();

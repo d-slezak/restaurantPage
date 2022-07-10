@@ -47,8 +47,8 @@ body {
 }
 
 .navItem {
-    height:100%
-
+    height:100%;
+    text-transform: capitalize;
 }
 
 .navItem:hover{
