@@ -5,7 +5,9 @@ import { renderFooter } from "./footer";
 const content = document.getElementById('content');
 
 
-function addNavListeners(){
+function addNav(){
+    content.appendChild(renderNav());
+    
     const navItems = document.querySelectorAll('.navItem');
     navItems.forEach(item => item.addEventListener('click', (e) => {
         const action = e.target.id;
@@ -26,8 +28,7 @@ function addNavListeners(){
 
 function homePage() {
     content.innerHTML= '';
-    content.appendChild(renderNav());
-    addNavListeners();
+    addNav();
     content.appendChild(renderHome());
     content.appendChild(renderFooter());
 }

@@ -105,11 +105,13 @@ body {
 }
 
 #tagLine {
+    margin-top: 3rem;
     color: var(--white);
 }
 
 #creamPuff {
-    width: 264px;
+    width: 350px;
+    margin-top: 1rem;
     border: var(--gold) double;
     border-width: thick;
 }
