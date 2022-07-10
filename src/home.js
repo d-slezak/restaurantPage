@@ -28,8 +28,6 @@ function renderHome() {
 
     homePage.appendChild(callToAction);
 
-    console.log('HEL?');
-    
     return homePage;
 }
 

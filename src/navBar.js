@@ -16,7 +16,9 @@ function render() {
         navItem.classList.add('navItem');
         navItem.textContent = item;
         navItem.id = item;
+
         navOptions.appendChild(navItem);
+        
     })
 
     header.appendChild(navOptions);
