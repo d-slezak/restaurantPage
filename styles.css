@@ -56,7 +56,7 @@ body {
     border-bottom: var(--gold) solid;
 }
 
-#homePage
+#homePage, #aboutPage
 {
     display: flex;
     flex-direction: column;
@@ -80,7 +80,7 @@ body {
     padding: 2rem;
 }
 
-.callToAction h2 {
+h2, #history h3 {
     padding: 0px;
     margin: -15px;
 
@@ -90,7 +90,7 @@ body {
 }
 
 
-#welcome {
+#welcome, #aboutPage h2 {
     color: var(--gold);
     font-family:  var(--fancyFont);
 }
@@ -104,7 +104,7 @@ body {
     border-width: thick;
 }
 
-#tagLine {
+#tagLine, #aboutPage h3 {
     margin-top: 3rem;
     color: var(--white);
 }
@@ -115,6 +115,37 @@ body {
     border: var(--gold) double;
     border-width: thick;
 }
+
+#history {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 70%;
+    color: var(--white);
+    font-size: larger;
+    text-align: center;
+}
+
+#history h3 {
+    font-family: var(--blockFont);
+    font-size: 40px;
+
+    border-bottom: var(--gold) solid;
+    border-width: thick;
+}
+
+#histImgs {
+    display: flex;
+    gap: 2rem;
+}
+
+.histImg {
+    border: var(--gold) double;
+    border-width: thick;
+}
+
 
 #footer{
     display: flex;
