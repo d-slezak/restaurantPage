@@ -1,0 +1,47 @@
+
+:root {
+    --background: #161d2f;
+    --lightBackground: #2d3a4d;
+    --gold: #c59d5f;
+    --white: #ffffff
+}
+
+#content {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    padding: 1rem;
+
+    color: var(--gold);
+    background-color: var(--background);
+    border-bottom: var(--gold) solid;
+    border-width: thick;
+}
+
+#navOptions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    
+    height: 100%;
+
+    font-size: larger;
+}
+
+.navItem {
+    height:100%
+
+}
+
+.navItem:hover{
+
+    border-bottom: var(--gold) solid;
+}
