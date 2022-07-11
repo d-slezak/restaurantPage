@@ -1,7 +1,7 @@
 import { MenuItemFactory } from "./menuItem";
 
 function renderMenu() {
-    const toAdd = ['Cinnamon Rolls', 'Cream Puff', 'Easter Cup Cakes', 'Log Roll', 'Strawberry Tart', 'Valentines Cake'];
+    const toAdd = ['Cinnamon Rolls', 'Cream Puffs', 'Easter Cup Cakes', 'Log Roll', 'Strawberry Tarts', 'Valentines Cake'];
     const menuItems = [];
     toAdd.forEach(item => {
         menuItems.push(MenuItemFactory(item, `./images/product${item.replace(/\s+/g, '')}.jpg`));
