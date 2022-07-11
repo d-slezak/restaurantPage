@@ -19,7 +19,7 @@ function addNav(){
         }
         else if(action === 'menu')
         {
-            renderMenu();
+            menuPage();;
         }
         else if (action === 'about')
         {
@@ -32,6 +32,13 @@ function homePage() {
     content.innerHTML= '';
     addNav();
     content.appendChild(renderHome());
+    content.appendChild(renderFooter());
+}
+
+function menuPage() {
+    content.innerHTML='';
+    addNav();
+    content.appendChild(renderMenu());
     content.appendChild(renderFooter());
 }
 
