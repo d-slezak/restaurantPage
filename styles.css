@@ -123,6 +123,7 @@ h2, #history h3 {
     justify-content: center;
 
     background-color: var(--background);
+    padding-bottom: 2rem;
 }
 
 #menuPage h2 {
