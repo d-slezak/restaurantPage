@@ -2,6 +2,7 @@ import { renderNav } from "./navBar";
 import { renderHome } from "./home";
 import { renderFooter } from "./footer";
 import { renderAbout } from "./about";
+import { renderMenu } from "./menu";
 
 const content = document.getElementById('content');
 
@@ -18,7 +19,7 @@ function addNav(){
         }
         else if(action === 'menu')
         {
-            console.log('menu');
+            renderMenu();
         }
         else if (action === 'about')
         {

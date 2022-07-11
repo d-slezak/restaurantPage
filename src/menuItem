@@ -1,0 +1,13 @@
+const MenuItemFactory = (name, imgSrc) => {
+    const createImgDom = () => {
+        const element = document.createElement('img');
+        element.src = imgSrc;
+        element.alt = name;
+
+        return element;
+    }
+
+    return {name, createImgDom}
+}
+
+export {MenuItemFactory}
